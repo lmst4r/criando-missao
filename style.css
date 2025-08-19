@@ -2,7 +2,7 @@
     --cor-fundo: #B2EBF2; /* Azul claro suave */
     --cor-principal: #FF4081; /* Rosa forte */
     --cor-secundaria: #FFEB3B; /* Amarelo brilhante */
-    --cor-destaque: #FF5722; /* Laranja intenso */
+    --cor-destaque: #FFFFFF; /* Branco */
     --cor-texto: #212121; /* Cinza escuro */
     --fonte-principal: 'Arial', sans-serif;
     --fonte-secundaria: 'Roboto', sans-serif;
@@ -85,4 +85,3 @@ button:active {
     font-family: var(--fonte-secundaria);
     line-height: 1.6;
 }
-
