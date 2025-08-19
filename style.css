@@ -1,16 +1,16 @@
 :root {
-    --cor-fundo: #B2EBF2; /* Azul claro suave */
-    --cor-principal: #FF4081; /* Rosa forte */
-    --cor-secundaria: #FFEB3B; /* Amarelo brilhante */
+    --cor-fundo: #FCE4EC; /* Rosa claro */
+    --cor-principal: #F50057; /* Rosa vibrante */
+    --cor-secundaria: #FF80AB; /* Rosa suave */
     --cor-destaque: #FFFFFF; /* Branco */
-    --cor-texto: #212121; /* Cinza escuro */
+    --cor-texto: #FFFFFF; /* Texto branco */
     --fonte-principal: 'Arial', sans-serif;
     --fonte-secundaria: 'Roboto', sans-serif;
 }
 
 body {
     background-color: var(--cor-fundo);
-    color: var(--cor-texto);
+    color: var(--cor-texto); /* Texto em branco */
     font-family: var(--fonte-principal);
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@ body {
 }
 
 h1 {
-    color: var(--cor-destaque);
+    color: var(--cor-destaque); /* Título em branco */
     font-family: var(--fonte-secundaria);
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -51,7 +51,7 @@ h1 {
 
 button {
     background-color: var(--cor-secundaria);
-    color: var(--cor-texto);
+    color: var(--cor-texto); /* Texto dos botões em branco */
     border: none;
     border-radius: 25px;
     padding: 15px 30px;
@@ -80,8 +80,9 @@ button:active {
 }
 
 .texto-resultado {
-    color: var(--cor-texto);
+    color: var(--cor-texto); /* Texto do resultado em branco */
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
     line-height: 1.6;
 }
+
